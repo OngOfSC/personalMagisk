@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+chmod +x revanced-magisk/bin/arm64/cmpr revanced-magisk/bin/arm/cmpr revanced-magisk/bin/x86/cmpr revanced-magisk/bin/x64/cmpr
 set -euo pipefail
 shopt -s nullglob
 trap "rm -rf temp/*tmp.* temp/*/*tmp.* temp/*-temporary-files; exit 130" INT
